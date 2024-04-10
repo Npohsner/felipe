@@ -11,15 +11,91 @@
             max-width: 900;
         }
         body {
-            background-color: yellow;
+            background-color: black;
+            color: white;
+        }
+        img{
+            width: 100%;
+        }
+        button{
+            background-color: rgba(196, 89, 178, 0.582);
+            color: white;
+        }
+        div{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            color: black;
+            margin: 20px;
+            padding: 20px;
+        }
+        div > a > img{
+            width: 5%;
+            padding: 15px;
+        }
+        h3{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #equipe{
+            width: 25%;
+            display: inline-block;
+            padding: 20px;
         }
     </style>
 </head>
 <body>
     
+    <img src="imagens/logo.jpg" alt="">
+    <br>
     <button onclick="document.location='index.html'">Home</button>
     <button onclick="document.location='pagina_03_musicas.html'">Musicas</button>
     <button onclick="document.location='pagina_04_curiosidades.html'">Curiosidades</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div>
+        <h1>Contato para Show</h1>
+        <h2>contatofefollyra@gmail.com</h2>
+        <br>
+        <br>
+        <br>
+        <h1>Assessoria de Imprensa</h1>
+        <h2>sandraalvescomunic@uol.com.br</h2>
+        <br>
+        <br>
+        <br>
+        <h1>Mídias</h1>
+        <a href="https://www.instagram.com/fefollyra/" target="_blank">
+            <img src="imagens/instagram.png" alt="">
+        </a>
+        <a href="https://www.tiktok.com/@fefollyra" target="_blank">
+            <img src="imagens/tiktok.png" alt="">
+        </a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h3>Equipe</h3>
+    <br>
+    <br>
+    <div id="equipe">
+        <img src="imagens/rodrigo.jpg" alt="">
+        <h3>Rodrigo Lira</h3>
+        <p>PRODUTOR EXECUTIVO</p>
+    </div>
+    <div id="equipe">
+        <img src="imagens/patricia.jpg" alt="">
+        <h3>Patricia Lira</h3>
+        <p>PRODUTORA EXECUTIVA II</p>
+    </div>
+    <div id="equipe">
+        <img src="imagens/sandra.jpg" alt="">
+        <h3>Sandra Alves</h3>
+        <p>ASSESSORIA DE IMPRENSA</p>
+    </div>
 
 </body>
 </html>
